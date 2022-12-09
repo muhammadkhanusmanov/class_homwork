@@ -76,6 +76,7 @@ class Number:
         for i in a:
             if a.count(i)>m:
                 k=i 
+                
                 m=a.count(i)
         return k
         
